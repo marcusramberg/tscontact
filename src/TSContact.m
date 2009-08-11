@@ -82,6 +82,18 @@
     return _fullName;
 }
 
+- (NSDictionary *)phoneNumbers {
+    return nil;
+}
+
+- (NSDictionary *)addresses {
+    return nil;
+}
+
+- (NSDictionary *)emails {
+    return nil;
+}
+
 #pragma mark Comparisson
 
 - (BOOL)isEqual:(id)anObject

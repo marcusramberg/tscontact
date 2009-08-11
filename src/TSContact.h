@@ -10,8 +10,14 @@
     ABRecordID _recordId;
     ABRecordRef _recordRef;
     NSString *_fullName;
+    NSDictionary *_phoneNumbers;
+    NSDictionary *_addresses;
+    NSDictionary *_emails;
 }
 - (id)initWithId:(ABRecordID)recordId;
 - (id)initWithRef:(ABRecordRef)recordRef;
 - (NSString *)fullName;
+- (NSDictionary *)phoneNumbers;
+- (NSDictionary *)addresses;
+- (NSDictionary *)emails;
 @end
